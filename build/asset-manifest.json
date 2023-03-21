@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tibaldo1.github.io/build/static/css/main.e6c13ad2.css",
+    "main.js": "/tibaldo1.github.io/build/static/js/main.c6b2f95d.js",
+    "static/js/787.7acab544.chunk.js": "/tibaldo1.github.io/build/static/js/787.7acab544.chunk.js",
+    "index.html": "/tibaldo1.github.io/build/index.html",
+    "main.e6c13ad2.css.map": "/tibaldo1.github.io/build/static/css/main.e6c13ad2.css.map",
+    "main.c6b2f95d.js.map": "/tibaldo1.github.io/build/static/js/main.c6b2f95d.js.map",
+    "787.7acab544.chunk.js.map": "/tibaldo1.github.io/build/static/js/787.7acab544.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c6b2f95d.js"
+  ]
+}
