@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from 'react'
+export default function App(){
+  return(
+    <div>
+      <Cabecalho/>
+      <Texto/> 
+      
+      <Cabecalho/>
     </div>
-  );
+  )
 }
+export function Cabecalho(){
+  return(
+    <div style={{backgroundColor:'black',height:'10vh'}}>
 
-export default App;
+    </div>
+  )
+}
+export function Texto(){
+  return(
+  <div style={{paddingBottom:'20vh',paddingTop:'20vh'}}>
+    <h1 style={{color:'red'}}>
+    Ein Volk, ein Reich, ein Führer
+    </h1>
+  </div>)
+}
